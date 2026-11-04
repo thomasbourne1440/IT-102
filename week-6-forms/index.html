@@ -1,0 +1,37 @@
+<h1>Welcome to Tommy's!</h1>
+
+<p>Please complete the form below to submit your sandwich preference, mark any allergies in the box below.</p>
+
+<form action="#" method="post">
+
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" minlength="2" maxlength="30" required>
+
+    <br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" minlength="2" maxlength="30" required>
+
+    <br><br>
+
+    <label for="foodChoice">Protein:</label>
+    <select id="foodChoice" name="foodChoice" required>
+        <option value="">-- Select a food option --</option>
+        <option value="chicken">Chicken</option>
+        <option value="beef">Beef</option>
+        <option value="fish">Fish</option>
+        <option value="pork">Pork</option>
+        <option value="tofu">Tofu</option>
+    </select>
+
+    <br><br>
+
+    <label for="allergies">Allergy Information:</label>
+    <br>
+    <textarea id="allergies" name="allergies" rows="5" cols="40" placeholder="List any food allergies here. If none, leave blank."></textarea>
+
+    <br><br>
+
+    <button type="submit">Submit Order!</button>
+
+</form>
